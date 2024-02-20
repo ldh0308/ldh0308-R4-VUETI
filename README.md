@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 # RUN
 ```
 $ docker compose up -d
 ```
-=======
+
 # Vue Dokerize
 - **Step #1**
   ```bash
@@ -27,4 +27,4 @@ $ docker compose up -d
   $ sudo docker build -t vue-app .
   $ sudo docker run -itd --name 240220.1 -p 8080:80 vue-app
   ```
->>>>>>> refs/remotes/origin/240221.1/Dockerize
+
