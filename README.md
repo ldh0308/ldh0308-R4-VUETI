@@ -1,5 +1,5 @@
 # Vue Dokerize
-- Step #1
+- **Step #1**
   ```bash
   $ vi Dockerfile
   # build stage
@@ -15,7 +15,9 @@
   COPY --from=build-stage /app/docs /usr/share/nginx/html
   EXPOSE 80
   CMD ["nginx", "-g", "daemon off;"]
-- step #2
+  ```
+- **step #2**
+  ```bash
   $ sudo docker build -t vue-app .
   $ sudo docker run -itd --name 240220.1 -p 8080:80 vue-app
   ```
